@@ -5,9 +5,8 @@ public class Fibonacci {
         getFibonnacci();
     }
 
-    public static Integer getFibonnacci(){
+    public static void getFibonnacci(){
 
-        ;
         int firstLastNumber = 0;
         int secondLastNumber = 0;
         int fibonacciNumber = 0;
@@ -27,11 +26,7 @@ public class Fibonacci {
             }
 
             System.out.println(fibonacciNumber);
-
-        }
-
-        return fibonacciNumber;
-
+        };
     }
 
 }
